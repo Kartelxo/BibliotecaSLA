@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mxfile host="app.diagrams.net" modified="2026-11-25T14:30:00.000Z" agent="ChatGPT" version="24.7.17" type="device">
+  <diagram id="casos-uso-biblioteca" name="Casos de Uso">
+    <mxGraphModel dx="1500" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="heading" value="&lt;b&gt;DIAGRAMA DE CASOS DE USO — SISTEMA DE BIBLIOTECA&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;fontColor=#24364b;" vertex="1" parent="1">
+          <mxGeometry x="300" y="20" width="1000" height="45" as="geometry"/>
+        </mxCell>
+        <mxCell id="system" value="&lt;b&gt;Sistema de Gestão de Biblioteca&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#52677d;dashed=1;dashPattern=8 4;verticalAlign=top;align=center;spacingTop=12;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="1000" height="850" as="geometry"/>
+        </mxCell>
+        <mxCell id="reader" value="Leitor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fff2cc;strokeColor=#b38b22;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="75" y="330" width="90" height="130" as="geometry"/>
+        </mxCell>
+        <mxCell id="staff" value="Funcionário /&lt;br&gt;Bibliotecário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fff2cc;strokeColor=#b38b22;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="330" width="110" height="145" as="geometry"/>
+        </mxCell>
+        <mxCell id="search" value="Pesquisar / consultar&lt;br&gt;catálogo" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="390" y="160" width="210" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="availability" value="Consultar disponibilidade&lt;br&gt;de exemplares" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="700" y="160" width="230" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="loan_info" value="Consultar os meus&lt;br&gt;empréstimos" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="390" y="285" width="210" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="reserve" value="Reservar livro" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="700" y="285" width="210" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="cancel_res" value="Cancelar reserva" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=13;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="980" y="285" width="200" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="borrow" value="Registar empréstimo" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="390" y="445" width="210" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="return" value="Registar devolução" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="700" y="445" width="210" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="manage_res" value="Gerir reservas" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="980" y="445" width="200" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="manage_books" value="Gerir livros e&lt;br&gt;exemplares" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="390" y="610" width="210" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="manage_people" value="Gerir leitores" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="700" y="610" width="210" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="manage_catalog" value="Gerir autores e&lt;br&gt;categorias" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="980" y="610" width="200" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="fines" value="Consultar / registar&lt;br&gt;multas" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="700" y="770" width="210" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="staff_loans" value="Consultar empréstimos&lt;br&gt;e histórico" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="980" y="770" width="200" height="75" as="geometry"/>
+        </mxCell>
+        <mxCell id="reader_link_1" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeColor=#52677d;" edge="1" parent="1" source="reader" target="search">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="reader_link_2" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeColor=#52677d;" edge="1" parent="1" source="reader" target="availability">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="reader_link_3" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeColor=#52677d;" edge="1" parent="1" source="reader" target="loan_info">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="reader_link_4" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeColor=#52677d;" edge="1" parent="1" source="reader" target="reserve">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="reader_link_5" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeColor=#52677d;" edge="1" parent="1" source="reader" target="cancel_res">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="reader_link_6" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeColor=#52677d;" edge="1" parent="1" source="reader" target="fines">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="staff_link_1" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeColor=#52677d;" edge="1" parent="1" source="staff" target="availability">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="staff_link_2" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeColor=#52677d;" edge="1" parent="1" source="staff" target="borrow">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="staff_link_3" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeColor=#52677d;" edge="1" parent="1" source="staff" target="return">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="staff_link_4" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeColor=#52677d;" edge="1" parent="1" source="staff" target="manage_res">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="staff_link_5" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeColor=#52677d;" edge="1" parent="1" source="staff" target="manage_books">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="staff_link_6" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeColor=#52677d;" edge="1" parent="1" source="staff" target="manage_people">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="staff_link_7" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeColor=#52677d;" edge="1" parent="1" source="staff" target="manage_catalog">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="staff_link_8" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeColor=#52677d;" edge="1" parent="1" source="staff" target="fines">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="staff_link_9" value="" style="endArrow=none;startArrow=none;html=1;rounded=0;strokeColor=#52677d;" edge="1" parent="1" source="staff" target="staff_loans">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="note" value="&lt;b&gt;Legenda:&lt;/b&gt; Azul — ações do leitor · Verde — ações do funcionário/bibliotecário · Amarelo — ação partilhada" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=12;align=center;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="330" y="975" width="940" height="55" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
